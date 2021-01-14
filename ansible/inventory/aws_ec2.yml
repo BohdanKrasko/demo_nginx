@@ -1,0 +1,11 @@
+---
+plugin: aws_ec2
+aws_access_key: AKIAV45FVEXOACT2QWHT
+aws_secret_key: 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
+
+regions:
+  - eu-west-2
+
+keyed_groups:
+  - key: placement.region
+    prefix: aws_region
